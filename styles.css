@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{box-sizing: border-box;
+*{
+    box-sizing: border-box;
 }
 
 body {
     font-size: 18px;
     font-family: "Hanken Grotesk";
+    background-color: black;
 }
 .attribution { 
     font-size: 11px; text-align: center; 
@@ -16,7 +18,7 @@ body {
 }
 
 .container {
-    width: 375px;
+    width: 375px;    
 }
 
 
@@ -32,6 +34,8 @@ body {
 
 .container {
     text-align: center;
+    margin: 0 auto;
+    background-color: white;
 }
 
 .container__result_yourResult {
@@ -96,6 +100,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: white;
     
 }
 
