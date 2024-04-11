@@ -35,7 +35,7 @@ body {
 }
 
 .container__result_yourResult {
-    padding: 1.5rem;
+    padding: 1rem;
     color: #d0c3ff;
     
 }
@@ -91,10 +91,12 @@ body {
 
 .container__summary {
     padding: 0;
-    padding-left: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
     display: flex;
     flex-direction: column;
     width: 100%;
+    
 }
 
 .container__summary_title {
@@ -102,30 +104,59 @@ body {
     text-align: start;
 }
 
-.container__summary div:first-child {
+.container__summary_Reaction{
     background-color: gray;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px;
+    justify-content: space-between;  
     width: 100%;
     border-radius: 5px;
-    background-color:hsla(0, 100%, 67%, 0.3) ;
-    color:rgb(207, 99, 99);
+    background-color:hsla(0, 100%, 67%, 0.3) ;    
     font-size: 15px;
     font-weight: bold;
+    padding: 10px;
+    margin-bottom: 1rem;
 }
-
-.container__summary div:nth-child(2) {
+.container__summary_Memory{
     background-color: gray;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px;
+    justify-content: space-between;  
     width: 100%;
     border-radius: 5px;
+    background-color: hsl(39, 100%, 56%,0.3) ;    
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 1rem;
 }
-
+.container__summary_Verbal{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    width: 100%;
+    border-radius: 5px;
+    background-color: hsl(166, 100%, 37%,0.3) ;    
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+.container__summary_Visual{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    width: 100%;
+    border-radius: 5px;
+    background-color: hsl(234, 85%, 45%,0.3) ;    
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+.container__summary
 p{
     margin: 0;
     padding: 0;
@@ -138,4 +169,33 @@ p{
 span{
     font-weight: bold;
     color: black;
+}
+
+.Reaction_img{
+    display: flex;
+    gap: 10px;
+    color:hsl(0, 100%, 65%);
+}
+.Memory_img{
+    display: flex;
+    gap: 10px;
+    color: hsl(39, 100%, 56%);
+}
+.Verbal_img{
+    display: flex;
+    gap: 10px;
+    color:hsl(166, 100%, 37%);
+}
+.Visual_img{
+    display: flex;
+    gap: 10px;
+    color:hsl(234, 85%, 45%);
+}
+.container__summary > button{
+    background-color: hsl(224,30%,27%);
+    color: white;
+    border-radius: 30px;
+    padding: 0.7rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
